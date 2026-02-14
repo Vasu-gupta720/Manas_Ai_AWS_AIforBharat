@@ -2,8 +2,6 @@
 
 > An India-first, voice-enabled AI companion supporting student mental well-being through empathetic conversation.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status: In Development](https://img.shields.io/badge/Status-In%20Development-blue.svg)]()
 
 ---
 
@@ -102,59 +100,6 @@ Voice Output to Student
 - **CDN**: CloudFlare
 - **Monitoring**: Sentry, DataDog
 - **CI/CD**: GitHub Actions
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18 or higher)
-- PostgreSQL (v14 or higher)
-- Redis (v7 or higher)
-- Docker (optional, for containerized deployment)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Vasu-gupta720/Manas_Ai_AWS_AIforBharat.git
-cd Manas_Ai_AWS_AIforBharat
-
-# Install dependencies
-npm install
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys and configuration
-
-# Run database migrations
-npm run migrate
-
-# Start development server
-npm run dev
-```
-
-### Environment Variables
-
-```env
-# AI Services
-OPENAI_API_KEY=your_openai_key
-ELEVENLABS_API_KEY=your_elevenlabs_key
-
-# Database
-DATABASE_URL=postgresql://user:password@localhost:5432/manas_ai
-REDIS_URL=redis://localhost:6379
-
-# AWS (for file storage)
-AWS_ACCESS_KEY_ID=your_aws_key
-AWS_SECRET_ACCESS_KEY=your_aws_secret
-AWS_S3_BUCKET=your_bucket_name
-
-# Application
-PORT=3000
-NODE_ENV=development
-JWT_SECRET=your_jwt_secret
-```
 
 ---
 
@@ -299,16 +244,11 @@ If you or someone you know is in crisis, please reach out to these resources imm
 
 ## 📧 Contact
 
-- **Project Lead**: Vasu Gupta
-- **Email**: [your-email@example.com]
+- **Project Lead**: Aastha Suhani
 - **GitHub**: [@Vasu-gupta720](https://github.com/Vasu-gupta720)
 - **Project Link**: [https://github.com/Vasu-gupta720/Manas_Ai_AWS_AIforBharat](https://github.com/Vasu-gupta720/Manas_Ai_AWS_AIforBharat)
 
----
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
